@@ -32,18 +32,6 @@ export default function Hero() {
         }`}
       >
         {/* Encabezado */}
-        {/* <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 leading-tight max-w-3xl">
-          Potenciamos tu presencia{" "}
-          <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-yellow-500">
-            digital
-          </span>{" "}
-          con soluciones web reales.
-        </h1>
-
-        <p className="text-lg sm:text-xl text-gray-300 max-w-2xl mb-12">
-          Sitios web modernos, rápidos y hechos a medida para impulsar tu marca.
-          Tecnología, diseño y estrategia unidos en un solo lugar.
-        </p> */}
         <h1 className="text-5xl sm:text-6xl md:text-7xl font-extrabold text-white mb-6 leading-tight max-w-3xl">
   Soluciones digitales{" "}
   <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600">
