@@ -1,22 +1,3 @@
-// import "./globals.css";
-
-// export const metadata = {
-//   title: "ZONAWEB | Sitios y sistemas que hacen crecer tu negocio",
-//   description:
-//     "Diseño web profesional, tiendas online y sistemas de gestión adaptados a tu negocio. Presencia online rápida, simple y accesible.",
-// };
-
-// export default function RootLayout({ children }) {
-//   return (
-//     <html lang="es">
-//       <body className="antialiased text-gray-100 bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 min-h-screen">
-//         {children}
-//       </body>
-//     </html>
-//   );
-// }
-
-
 import "./globals.css";
 
 export const metadata = {
@@ -61,9 +42,27 @@ export const metadata = {
       "Creamos sitios web profesionales, tiendas online y sistemas de gestión que impulsan tu presencia digital.",
     images: ["/og-image.jpg"],
   },
+  // icons: {
+  //   icon: "/favicon.ico",
+  //   apple: "/apple-touch-icon.png",
+  // },
   icons: {
-    icon: "/favicon.ico",
+    icon: [
+      { url: "/favicon-16x16.png", sizes: "16x16", type: "image/png" },
+      { url: "/favicon-32x32.png", sizes: "32x32", type: "image/png" },
+      { url: "/favicon.ico" }, // fallback
+    ],
     apple: "/apple-touch-icon.png",
+    other: [
+      {
+        rel: "android-chrome-192x192",
+        url: "/android-chrome-192x192.png",
+      },
+      {
+        rel: "android-chrome-512x512",
+        url: "/android-chrome-512x512.png",
+      },
+    ],
   },
   alternates: {
     canonical: "https://zonaweb.site",
