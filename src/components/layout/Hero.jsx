@@ -27,7 +27,7 @@ export default function Hero() {
         <h1 className="text-[clamp(2rem,5vw,4rem)] sm:text-[clamp(3rem,5vw,5rem)] md:text-[clamp(4rem,5vw,6rem)] font-extrabold text-white mb-6 leading-tight max-w-3xl">
           Soluciones digitales{" "}
           <span className="bg-clip-text text-transparent bg-gradient-to-r from-orange-400 to-orange-600">
-            para tu empresa
+            para tu negocio
           </span>
         </h1>
 

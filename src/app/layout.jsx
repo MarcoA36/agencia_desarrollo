@@ -68,6 +68,9 @@ export const metadata = {
   alternates: {
     canonical: "https://zonaweb.site",
   },
+    other: {
+    "google-site-verification": "PCkUYReJSTy2toO-rxOEPA1Ox1k66eW8LrNMHfVQntA",
+  },
 };
 
 export default function RootLayout({ children }) {
