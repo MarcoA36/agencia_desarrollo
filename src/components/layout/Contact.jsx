@@ -106,10 +106,10 @@ export default function Contact() {
         </form>
 
         <div className="mt-12 flex flex-col items-center gap-4 text-gray-400 text-lg">
-          <div className="flex items-center gap-3">
+          {/* <div className="flex items-center gap-3">
             <FaEnvelope className="text-2xl text-orange-400" />
             <span>marco_95_5@yahoo.com</span>
-          </div>
+          </div> */}
           <div className="flex items-center gap-3">
             <FaPhone className="text-2xl text-orange-400" />
             <span>+54 9 2284 656640</span>
