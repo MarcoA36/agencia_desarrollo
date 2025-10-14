@@ -70,6 +70,7 @@ export const metadata = {
     other: {
     "google-site-verification": "PCkUYReJSTy2toO-rxOEPA1Ox1k66eW8LrNMHfVQntA",
   },
+  manifest: "/site.webmanifest",
 };
 
 export default function RootLayout({ children }) {
