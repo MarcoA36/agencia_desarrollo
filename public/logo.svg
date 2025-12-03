@@ -1,0 +1,22 @@
+<svg width="60" height="60" viewBox="0 0 60 60" fill="none"
+     xmlns="http://www.w3.org/2000/svg">
+  <!-- Marco -->
+  <rect x="6" y="6" width="48" height="48" rx="10"
+        stroke="#d4d4d4" stroke-width="4"/>
+
+  <!-- Líneas blancas + naranjas -->
+  <path d="M20 22 H40"
+        stroke="#ff7a1a"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+  <path d="M20 30 H40"
+        stroke="#ffa94d"
+        stroke-width="4"
+        stroke-linecap="round"/>
+
+  <path d="M20 38 H32"
+        stroke="white"
+        stroke-width="4"
+        stroke-linecap="round"/>
+</svg>

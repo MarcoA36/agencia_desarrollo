@@ -76,7 +76,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="es">
-      <body className="antialiased text-gray-100 bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 min-h-screen">
+      {/* <body className="antialiased text-gray-100 bg-gradient-to-b from-zinc-950 via-zinc-900 to-zinc-950 min-h-screen"> */}
+      <body className="antialiased text-gray-100 bg-gradient-to-b from-zinc-950 to-zinc-900 min-h-screen">
+
         {children}
 
         {/* 📊 Datos estructurados para SEO (JSON-LD) */}

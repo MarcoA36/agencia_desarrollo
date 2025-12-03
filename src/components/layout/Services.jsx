@@ -5,7 +5,6 @@ import { Laptop, ShoppingBag, Wrench, Rocket } from "lucide-react";
 export default function Services() {
   const [visible, setVisible] = useState(false);
 
-  // Intersection Observer para animación
   useEffect(() => {
     const section = document.getElementById("services");
     if (!section) return;
@@ -45,16 +44,13 @@ export default function Services() {
   ];
 
   return (
-    <section
-      id="services"
-      className="relative text-white py-24 px-6 overflow-hidden"
-    >
-      {/* Glow naranja sutil */}
-      <div className="absolute top-1/2 left-1/2 w-[400px] h-[400px] bg-orange-500/10 blur-2xl -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
+    <section id="services" className="relative text-white py-32 px-6">
+      {/* Glow naranja sutil (livianísimo) */}
+      <div className="absolute top-1/2 left-1/2 w-[300px] h-[300px] bg-orange-500/10 blur-3xl -translate-x-1/2 -translate-y-1/2 pointer-events-none"></div>
 
       <div
-        className={`relative max-w-6xl mx-auto text-center transition-[opacity,transform] duration-1000 ${
-          visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-10"
+        className={`relative max-w-6xl mx-auto text-center transition-opacity duration-700 ${
+          visible ? "opacity-100" : "opacity-0"
         }`}
       >
         <h2 className="text-4xl sm:text-5xl font-extrabold mb-12 text-orange-400">
@@ -65,7 +61,7 @@ export default function Services() {
           {services.map((service, i) => (
             <div
               key={i}
-              className="bg-zinc-900/80 backdrop-blur-[1px] p-8 rounded-2xl border border-white/5 shadow-lg hover:border-orange-400/40 hover:shadow-orange-500/20 hover:scale-105 transition-transform motion-safe:hover:scale-105 motion-safe:hover:shadow-lg"
+              className="bg-zinc-900/80 p-8 rounded-2xl border border-white/5 shadow-lg hover:border-orange-400/40 transition-colors"
             >
               <div className="flex flex-col items-center">
                 {service.icon}
